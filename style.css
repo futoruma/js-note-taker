@@ -1,0 +1,75 @@
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    align-self: center;
+}
+
+textarea {
+    width: 480px;
+    height: 160px;
+    align-self: center;
+    font-size: 16px;
+}
+
+div {
+    align-self: center;
+}
+
+.newnote {
+    background-color: antiquewhite;
+    border: solid 7px royalblue;
+    border-radius: 7px;
+    margin: 12px;
+    padding: 10px;
+    height: 72px;
+    width: 288px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.newnote:hover {
+    background-color: gold;
+}
+
+p {
+    align-self: center;
+}
+
+#addbutton {
+    height: 32px;
+    width: 48px;
+    margin: 12px;
+    align-self: center;
+}
+
+.popup {
+    z-index: 10;
+    background-color: white;
+    border: solid 10px darkblue;
+    border-radius: 8px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 320px;
+    width: 480px;
+    padding: 12px;
+    font-size: 24px;
+    word-break: break-all;
+}
+
+.overlay {
+    z-index: 5;
+    background-color: darkgray;
+    opacity: 60%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+}
